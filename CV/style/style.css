@@ -25,10 +25,12 @@ p{
 .profil_pic{
     margin-top: 30px;
     margin: 0 auto;
+    width: 33%;
 }
 .contact{
     text-align: center;
     padding-bottom: 50px;
+    width: 33%;
 }
 img{
     width: 100%;
@@ -43,6 +45,7 @@ img{
     text-align: center;
     margin: 0;
     padding: 0;
+    width: 33%;
 }
 .contact{
     text-align: center;
