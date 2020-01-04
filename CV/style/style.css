@@ -1,3 +1,7 @@
+body{
+    background-color: rgb(241, 236, 236);
+}
+
 h2{
     color: purple;
 }
@@ -25,12 +29,14 @@ p{
 .profil_pic{
     margin-top: 30px;
     margin: 0 auto;
-    width: 33%;
+    margin-bottom: 0;
+    padding:0;
 }
 .contact{
     text-align: center;
-    padding-bottom: 50px;
-    width: 33%;
+    
+   
+    font-family: 'Ibarra Real Nova', serif;
 }
 img{
     width: 100%;
@@ -40,19 +46,27 @@ img{
     margin-top: 30px;
     width: 200px;
     height: 250px;
+   
 }
 .general_info{
     text-align: center;
     margin: 0;
     padding: 0;
-    width: 33%;
+
 }
 .contact{
     text-align: center;
     margin: 0;
     padding: 0;
+    font-family: 'Ibarra Real Nova', serif;
 }
-
+.title{
+    font-size: 30px;
+    font-family: 'Ibarra Real Nova', serif;
+    margin: 0;
+    padding: 0;
+    
+}
 .langues{
     text-align: center;
     font-size: 30px;
@@ -60,6 +74,7 @@ img{
 .computer_knowledge{
     width: 90%;
     margin: 0 auto;
+    font-family: 'Ibarra Real Nova', serif;
 
 }
 .framework{
@@ -94,10 +109,11 @@ img{
 }
 p{
     font-size: 20px;
+    font-family: 'Ibarra Real Nova', serif;
 }
 .logistics, .kwowhow, .languages, .pro{
     display: none;
-
+    font-family: 'Ibarra Real Nova', serif;
     margin-bottom: 30px;
     margin-top: 0;
 }
@@ -176,6 +192,8 @@ button{
     margin: 0 auto;
     border: 1px solid purple;
     margin-bottom: 30px;
+    font-family: 'Ibarra Real Nova', serif;
+   
    
 }
 *{
@@ -188,11 +206,12 @@ button{
    width: 95%;
    font-size: 30px;
    padding-left: 30px;
-   color: purple;
+   color: black;
+   font-family: 'Ibarra Real Nova', serif;
 }
 
 #slider {
- 
+    width: 300px;
     position: relative;
     overflow: hidden;
     margin: 0 auto;
@@ -204,7 +223,7 @@ button{
     margin: 0 auto;
     padding: 0;
     height: 500px;
-
+    width: 300px;
     list-style: none;
 }
 
@@ -214,7 +233,7 @@ button{
     float: left;
     margin: 0 auto;
     padding: 0;
-    width: 250px;
+    width: 300px;;
     height: 500px;
     background: #ccc;
     text-align: center;
@@ -268,14 +287,19 @@ p, h2, h1{
 }
 
 .title{
+    margin: 30px;
     font-size: 30px;
+    font-family: 'Ibarra Real Nova', serif;
+    
 }
 
 .name{
     font-size: 30px;
+    font-family: 'Ibarra Real Nova', serif;
 }
 .birth{
     font-size: 25px;
+    font-family: 'Ibarra Real Nova', serif;
 }
 
 .general{
@@ -285,11 +309,10 @@ p, h2, h1{
 
 .contact_title, .phone, .address{
     font-size: 30px;
+    font-family: 'Ibarra Real Nova', serif;
 }
 
-.contact{
-    margin-left: 120px;
-}
+
 
 .general{
     display: flex;
@@ -298,32 +321,38 @@ p, h2, h1{
     border: 15px solid purple;
     border-radius: 90px;
     margin: 0 auto;
-    padding: 2%;
+  
     background-color: white;
+    
 }
 
 .profil_pic{
-
-    margin-right: 10%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   width: 33%;
 }
 
 .pro_pic{
+    margin-top: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 0;
-    margin-top: 10%;
+   
     width: 200px;
     height: 250px;
 }
 
 .general_info{
-    width: 42.5%;
+    width: 33%;
 }
 
 .contact{
-    width: 42.5%;
+    width: 33%;
 }
 
 .langues{
@@ -352,6 +381,7 @@ p, h2, h1{
 
 .js, .php, .ajax, .python, .html, .framework, .symfony {
     margin-right: 60px;
+    font-family: 'Ibarra Real Nova', serif;
 }
 
 .ls{
@@ -397,6 +427,8 @@ button{
     margin: 0 auto;
     border: 1px solid purple;
     margin-bottom: 30px;
+    background-color: rgb(116, 9, 116);
+    font-family: 'Ibarra Real Nova', serif;
    
 }
 
@@ -410,7 +442,8 @@ button{
    width: 95%;
    font-size: 30px;
    padding-left: 30px;
-   color: purple;
+   color: white;
+   font-family: 'Ibarra Real Nova', serif;
     font-family: Arial, Helvetica, sans-serif;
    
 }
@@ -481,7 +514,7 @@ img{
 }
 
 #slider {
- 
+    width: 300px;
     position: relative;
     overflow: hidden;
     margin: 0 auto;
@@ -492,6 +525,7 @@ img{
     position: relative;
     margin: 0;
     padding: 0;
+    width: 650px;
     height: 600px;
     list-style: none;
 }
@@ -501,7 +535,7 @@ img{
     float: left;
     margin: 0;
     padding: 0;
-    width: 600px;
+    width: 650px;
     height: 500px;
     background: #ccc;
     text-align: center;
